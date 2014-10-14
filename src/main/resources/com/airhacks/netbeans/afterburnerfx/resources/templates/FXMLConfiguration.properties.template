@@ -1,0 +1,2 @@
+<#assign licensePrefix = "# ">
+<#include "${project.licensePath}">    

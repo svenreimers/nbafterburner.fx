@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<#assign licenseFirst = "<!--">
+<#assign licensePrefix = " ">
+<#assign licenseLast = "-->">
+<#include "${project.licensePath}">
+
+<?import java.lang.*?>
+<#if css?? && css != "">
+<?import java.net.*?>
+</#if>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1">
+<#if css?? && css != "">
+    <stylesheets>
+        <URL value="@${css}.css"/>
+    </stylesheets>
+</#if>
+</AnchorPane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Templates">
+        <folder name="javafx">
+            <file name="FXMLView.java" url="nbresloc:/afterburner/resources/templates/FXMLView.java.template">
+                <!--afterburner.AfterburnerFXTemplateWizardIterator-->
+                <attr boolvalue="true" name="template"/>
+                <attr name="displayName" stringvalue="Afterburner.fx View"/>
+                <attr name="instantiatingIterator" newvalue="afterburner.AfterburnerFXTemplateWizardIterator"/>
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+                <attr boolvalue="true" name="requiredProject"/>
+            </file>
+                
+            <file name="FXMLPresenter.java" url="nbresloc:/afterburner/resources/templates/FXMLPresenter.java.template">
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+            </file>
+            <file name="FXML.fxml" url="nbresloc:/afterburner/resources/templates/FXML.fxml.template">
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+            </file>
+            <file name="FXMLBundle.properties" url="nbresloc:/afterburner/resources/templates/FXMLBundle.properties.template">
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+            </file>
+            <file name="FXMLConfiguration.properties" url="nbresloc:/afterburner/resources/templates/FXMLConfiguration.properties.template">
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+            </file>
+            <file name="FXMLCss.css" url="nbresloc:/afterburner/resources/templates/FXMLCss.css.template">
+                <attr name="javax.script.ScriptEngine" stringvalue="freemarker"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

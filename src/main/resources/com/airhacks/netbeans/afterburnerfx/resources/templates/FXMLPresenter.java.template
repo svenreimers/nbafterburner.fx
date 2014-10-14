@@ -1,0 +1,26 @@
+<#assign licenseFirst = "/*">
+<#assign licensePrefix = " * ">
+<#assign licenseLast = " */">
+<#include "${project.licensePath}">
+
+<#if package?? && package != "">
+package ${package};
+
+import java.net.URL;
+import java.util.ResourceBundle;
+import javafx.fxml.Initializable;
+
+</#if>
+/**
+ *
+ * @author ${user}
+ */
+public class ${name} implements Initializable {
+ 
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        // add your code here
+    }
+
+   
+}
